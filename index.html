@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title><3nc0d3R></title>
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <img src="/imagens/alura_logo.png" alt="Logo" class="logo">
+        </header>
+
+        <main class="main-content">
+
+            <section class="input-section">
+                <h1>Digite seu texto</h1>
+                <textarea id="inputTexto" placeholder="Digite seu texto aqui"></textarea>
+                <div class="info">
+                    <p>ⓘ Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <div class="buttons">
+                    <button onclick="criptografar()">Criptografar</button>
+                    <button onclick="descriptografar()">Descriptografar</button>
+                </div>
+            </section>
+
+            <section class="output-section">
+                <img src="/imagens/garota_lupa.png" alt="Nenhuma mensagem encontrada" class="placeholder-image">
+                
+                <p class="placeholder-text">Nenhuma mensagem encontrada</p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+                <div id="resultado"></div>
+            </section>
+            
+        </main>
+    </div>
+
+    <footer>  </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>

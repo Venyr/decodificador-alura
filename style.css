@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: #F3F5FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.input-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.input-section h1 {
+    color: #0A3871;
+    margin-bottom: 20px;
+}
+
+#inputTexto {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-section .info {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+button:first-of-type {
+    background-color: #0A3871;
+    color: white;
+}
+
+button:last-of-type {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.output-section {
+    flex: 1;
+    background-color: #F3F5FC;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-image {
+    width: 100px;
+    height: auto;
+}
+
+.placeholder-text {
+    margin-top: 10px;
+    color: #0A3871;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+}
